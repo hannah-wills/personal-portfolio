@@ -1,0 +1,94 @@
+header {
+  color: #eab6d9;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  font-family: Arial, sans-serif;
+}
+
+header h2 {
+  font-size: 25px;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #eab6d9;
+  color: #fff;
+  font-size: 30px;
+}
+
+nav span {
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.computer {
+  display: flex;
+  align-items: center;
+}
+
+.computer-text {
+  flex: 1;
+  font-size: 20px;
+}
+
+.computerPic {
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.contact-me {
+  font-size: 20px;
+  text-align: center;
+}
+
+.home-page p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.animal-text {
+  font-size: 20px;
+  order: 2;
+  margin-left: 30px;
+}
+
+.favourite-animal {
+  display: flex;
+  margin-left: 10px;
+}
+
+.country-text {
+  font-size: 20px;
+  order: 2;
+  margin-left: 30px;
+}
+
+.country {
+  display: flex;
+  margin-left: 10px;
+}
